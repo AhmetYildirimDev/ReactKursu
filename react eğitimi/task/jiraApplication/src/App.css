@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.task-update-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.task-label {
+    margin: 10px 0;
+}
+
+.task-textarea {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task-button {
+
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin: 3rem 0;
+}
+
+.task-input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tasks-card {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border: 2px solid green;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-buttons {
+    margin-top: 2rem;
+}
+
+.delete-button {
+    background-color: red;
+    border-radius: 10px;
+    padding: 4px 20px;
+    border: none;
+    color: white;
+}
+
+.update-button {
+    margin-left: 2rem;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 4px 20px;
+    border: none;
+    color: white;
+}

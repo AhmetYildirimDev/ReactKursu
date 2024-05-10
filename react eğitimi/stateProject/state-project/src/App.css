@@ -1,0 +1,21 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.addCarButton {
+    background-color: blue;
+    width: 25%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: medium;
+    color: white;
+}
